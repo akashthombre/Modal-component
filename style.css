@@ -1,0 +1,116 @@
+body{
+	font-family: arial;
+}
+
+.modalview {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 10;
+	background: rgba(0,0,0,0.4);
+	top: 0;
+	left: 0;
+	
+}
+.modbtn{
+	margin: 30px 45px;
+}
+
+.content{
+	width:40vw;
+	height: 35vh;
+	background: #fff;
+	border-radius: 3px;
+	position: absolute;
+	left: 30%;
+	top: 25%;
+}
+#modalbutton{
+	padding: 10px 15px;
+	color: #fff;
+	background-color: #0275e0;
+	text-decoration: none;
+	border-radius: 4px;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+#header {
+	border-bottom: 1px solid #eee;
+	height: 5vh;
+}
+#header p{
+	padding-left: 1%; 
+
+}
+
+#mbody {
+	height: 18vh;
+	border-bottom: 1px solid #eee;
+}
+
+#mbody p{
+	letter-spacing: 0.1em;
+	padding: 10px 15px; 
+}
+
+#footer {
+	height: 5vh;
+}
+
+.options {
+	padding: 10px;
+	}
+
+	#cross{
+		top: 0;
+		right: 0;
+		padding: 0;
+		position: absolute;
+		cursor: pointer;
+		font-size: 2em;
+		color:#035e59;
+		
+	}
+
+	#cross:hover{
+		color: black;
+		display: block;
+	}
+	
+
+.options #close{
+	padding: 10px 15px;
+	color: #fff;
+	background-color: #353a36;
+	text-decoration: none;
+	border-radius: 4px;
+	font-size: 0.8em;
+	margin-top: 2em;
+	text-transform: uppercase;
+}
+
+.options #close:hover{
+	
+	background-color: #0452a0;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
